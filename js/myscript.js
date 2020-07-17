@@ -111,7 +111,7 @@ function createTable(country) {
     imgFlag.alt = "";
     //Check if flags exists so it throws no 404 error on GET
     if(flagExists(country.Code.toLowerCase())){
-        imgFlag.src = `../flags/${country.Code.toLowerCase()}.png`;
+        imgFlag.src = `https://github.com/mksiq/CountriesTable-DOM/blob/master/flags/${country.Code.toLowerCase()}.png`;
         imgFlag.height = "25";
         imgFlag.width = "40";
     }
